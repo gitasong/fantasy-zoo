@@ -5,6 +5,14 @@ import { Animal } from './animal.model';
   selector: 'animal-list',
   template: `
   <h2>Animals Currently In Zoo</h2>
+
+  <label>Filter By Age: </label>
+  <select>
+    <option value="all" selected="selected">All Animals</option>
+    <option value="young">Young Animals (under 2 years)</option>
+    <option value="mature">Mature Animals (2 years and older)</option>
+  </select>
+
   <ul>
     <li *ngFor="let currentAnimal of childAnimalList">
       <h3><strong>Name: </strong> {{currentAnimal.name}}</h3>
