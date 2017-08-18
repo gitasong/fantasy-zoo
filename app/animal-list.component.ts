@@ -16,6 +16,7 @@ import { Animal } from './animal.model';
       <p><strong>Sex: </strong> {{currentAnimal.sex}}</p>
       <p><strong>Likes: </strong> {{currentAnimal.likes}}</p>
       <p><strong>Dislikes: </strong> {{currentAnimal.dislikes}}</p>
+      <button>Edit!</button>
     </li>
   </ul>
   `
