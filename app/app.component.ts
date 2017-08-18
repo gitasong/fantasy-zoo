@@ -21,6 +21,7 @@ export class AppComponent {
   new Animal("gorilla", "Kokko", 1, "herbivore", "Primate House", 5, "male", "bananas", "gnats"),
   new Animal("unicorn", "Luna", 0, "lightarian", "Fantasy Realms", 12, "female", "moonlight", "impure maidens"),
   new Animal("copper-nosed rattlesnake", "Simbi", 1.5, "omnivore", "African Savannah", 3, "female", "prey", "confined spaces"),
+  new Animal("gryphon", "Griffindor", -257, "omnivore", "Fantasy Realms", 17, "unisex", "sharpening claws", "gargoyles"),
   ];
 
   addAnimal(newAnimal: Animal) {
