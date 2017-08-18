@@ -5,6 +5,7 @@ import { Animal } from './animal.model';
   selector: 'app-root',
   template: `
   <h1>Fantasy Zoo</h1>
+  <animal-list [childAnimalList]="masterAnimalList"><animal-list>
   `
 })
 
