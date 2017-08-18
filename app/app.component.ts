@@ -35,7 +35,7 @@ export class AppComponent {
   new Animal("gorilla", "Kokko", "http://3.bp.blogspot.com/-S6TgICXh-tc/TZglHS8bT9I/AAAAAAAACIg/KWfvlykdZcQ/s1600/Candid+Western+Lowland+Gorilla.jpg", 1, "herbivore", "Primate House", 5, "male", "bananas", "gnats"),
   new Animal("unicorn", "Luna", "http://www.wallpaperhi.com/thumbnails/detail/20111124/moonlight_magic-sharlene-lindskog.jpg", 0, "lightarian", "Fantasy Realms", 12, "female", "moonlight", "impure maidens"),
   new Animal("copper-nosed rattlesnake", "Simbi", "https://classconnection.s3.amazonaws.com/929/flashcards/716929/png/800px-crotalus_horridus_cdc1333743467116.png", 1.5, "omnivore", "African Savannah", 3, "female", "prey", "confined spaces"),
-  new Animal("gryphon", "Griffindor", "http://lemerg.com/data/wallpapers/21/857047.jpg", -257, "omnivore", "Fantasy Realms", 17, "unisex", "sharpening claws", "gargoyles"),
+  new Animal("gryphon", "Griffindor", "http://img05.deviantart.net/3393/i/2012/275/d/c/gryphon_ii_by_hagge-d5gmg8t.jpg", -257, "omnivore", "Fantasy Realms", 17, "unisex", "sharpening claws", "gargoyles"),
   ];
 
   addAnimal(newAnimal: Animal) {
