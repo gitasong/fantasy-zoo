@@ -6,7 +6,7 @@ import { AnimalListComponent } from './animal-list.component';
 import { NewAnimalComponent } from './new-animal.component';
 
 @NgModule({
-  imports: [BrowserModule,
+  imports: [ BrowserModule,
             FormsModule ],
   declarations: [ AppComponent,
                 AnimalListComponent,
