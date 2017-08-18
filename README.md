@@ -1,3 +1,9 @@
+# Fantasy Zoo
+
+Fantasy Zoo app (with a few unbelievable creatures) that allows the user to view the current animal list, filter animals by age using a dropdown menu, add new animals, and edit existing animals.
+
+#### By Nicole Freed
+
 ## Planning
 
 1. Configuration/dependencies
@@ -41,3 +47,54 @@
   * Color code by species and/or location
   * Custom styling
   * Additional features?
+
+  ## Prerequisites
+
+  You will need the following platforms, apps, and languages properly installed on your computer.
+
+  * [Git](https://git-scm.com/)
+  * [Node.js](https://nodejs.org/) (with NPM)
+  * [TypeScript](http://www.typescriptlang.org):
+    * install via npm with `npm install typescript -g`
+    * check installation with `tsc -v`; you should see a version number
+
+  ## Installation
+
+  * `git clone https://github.com/gitasong/fantasy-zoo`
+  * `cd fantasy-zoo`
+  * `npm install`
+
+  ## Running / Development
+
+  * `npm install`
+  * `bower install`
+  * `gulp build`
+  * `gulp serve`
+  * Visit your app at [http://localhost:3000](http://localhost:3000).
+
+  ## Known Bugs
+
+  No known bugs.
+
+  ## Support and Contact Details
+
+  You can contact me with questions or inquiries at gitasong@github.io.
+
+  ## Technologies Used
+
+  * HTML 5
+  * CSS 3
+  * Bootstrap 3
+  * Google Fonts
+  * TypeScript 2.4.2
+  * ECMAScript (JavaScript) 5 & 6
+  * Node.js 8.2.1
+  * npm (Node package manager) 5.3.0
+  * Bower (front-end dependency manager) 1.8.0
+  * Angular.js 2
+
+  ### License
+
+  This project is licensed under the MIT license.
+
+  Copyright (c) 2017 Nicole Freed. All rights reserved.
