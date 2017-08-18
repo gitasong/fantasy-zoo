@@ -6,12 +6,13 @@ import { Animal } from './animal.model';
   template: `
   <h1>Fantasy Zoo</h1>
   <animal-list [childAnimalList]="masterAnimalList"></animal-list>
-  <edit-animal></edit-animal>
+  <edit-animal [selectedAnimal]="selectedAnimal"></edit-animal>
   <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
   `
 })
 
 export class AppComponent {
+  selectedAnimal: null;
 
   masterAnimalList: Animal[] = [
   new Animal("arctic fox", "Moon", 2, "carnivore", "Northern Trail", 5, "female", "cool shade", "loud noises"),
