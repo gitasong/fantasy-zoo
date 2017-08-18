@@ -6,6 +6,7 @@ import { Animal } from './animal.model';
   template: `
   <h1>Fantasy Zoo</h1>
   <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+  <edit-animal></edit-animal>
   <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
   `
 })
