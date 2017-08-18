@@ -34,4 +34,9 @@ import { Animal } from './animal.model';
 
 export class EditAnimalComponent {
   @Input() selectedAnimal: Animal;
+  @Output() doneClickSender = new EventEmitter();
+
+  doneClick() {
+    this.doneClickSender.emit();
+  }
 }
