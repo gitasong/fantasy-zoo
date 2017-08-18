@@ -34,6 +34,12 @@ export class AnimalListComponent {
   @Input() childAnimalList: Animal[];
   @Output() clickSender = new EventEmitter();
 
+  filterByAge: string = "all";
+
+  onChange(optionFromMenu) {
+    this.filterByAge = optionFromMenu;
+  }
+
   editClick(animalToEdit: Animal) {
     this.clickSender.emit(animalToEdit);
   }
