@@ -23,4 +23,8 @@ export class AppComponent {
   addAnimal(newAnimal: Animal) {
     this.masterAnimalList.push(newAnimal);
   }
+
+  editAnimal(clickedAnimal) {
+    this.selectedAnimal = clickedAnimal;
+  }
 }
