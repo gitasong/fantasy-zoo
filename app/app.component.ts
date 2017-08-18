@@ -29,13 +29,13 @@ export class AppComponent {
   selectedAnimal: null;
 
   masterAnimalList: Animal[] = [
-  new Animal("arctic fox", "Moon", 2, "carnivore", "Northern Trail", 5, "female", "cool shade", "loud noises"),
-  new Animal("ocelot", "Prince", 4, "carnivore", "Tropical Rain Forest", 6, "male", "lying in the sunshine", "toys that are not rope-based"),
-  new Animal("northwest black-tailed deer", "Tinkerbell", 8, "herbivore", "Northern Trail", 2, "female", "delicate roots and leaves", "loud noises"),
-  new Animal("gorilla", "Kokko", 1, "herbivore", "Primate House", 5, "male", "bananas", "gnats"),
-  new Animal("unicorn", "Luna", 0, "lightarian", "Fantasy Realms", 12, "female", "moonlight", "impure maidens"),
-  new Animal("copper-nosed rattlesnake", "Simbi", 1.5, "omnivore", "African Savannah", 3, "female", "prey", "confined spaces"),
-  new Animal("gryphon", "Griffindor", -257, "omnivore", "Fantasy Realms", 17, "unisex", "sharpening claws", "gargoyles"),
+  new Animal("arctic fox", "Moon", "http://3.bp.blogspot.com/-X17BueaHM9o/UMn4aoWKhNI/AAAAAAAAPDk/4zlyQyy2SjE/s1600/Arctic+Fox+Wallpapers+02.jpg", 2, "carnivore", "Northern Trail", 5, "female", "cool shade", "loud noises"),
+  new Animal("ocelot", "Prince", "http://1.bp.blogspot.com/-zYi9dJIMMW8/UUXbBvpcjfI/AAAAAAAAXbE/KnBXygZOd2s/s1600/Ocelot+5.jpg", 4, "carnivore", "Tropical Rain Forest", 6, "male", "lying in the sunshine", "toys that are not rope-based"),
+  new Animal("northwest black-tailed deer", "Tinkerbell", "https://c1.staticflickr.com/3/2432/3784955372_7da8a22a15_z.jpg?zz=1", 8, "herbivore", "Northern Trail", 2, "female", "delicate roots and leaves", "loud noises"),
+  new Animal("gorilla", "Kokko", "http://3.bp.blogspot.com/-S6TgICXh-tc/TZglHS8bT9I/AAAAAAAACIg/KWfvlykdZcQ/s1600/Candid+Western+Lowland+Gorilla.jpg", 1, "herbivore", "Primate House", 5, "male", "bananas", "gnats"),
+  new Animal("unicorn", "Luna", "http://www.wallpaperhi.com/thumbnails/detail/20111124/moonlight_magic-sharlene-lindskog.jpg", 0, "lightarian", "Fantasy Realms", 12, "female", "moonlight", "impure maidens"),
+  new Animal("copper-nosed rattlesnake", "Simbi", "https://classconnection.s3.amazonaws.com/929/flashcards/716929/png/800px-crotalus_horridus_cdc1333743467116.png", 1.5, "omnivore", "African Savannah", 3, "female", "prey", "confined spaces"),
+  new Animal("gryphon", "Griffindor", "http://lemerg.com/data/wallpapers/21/857047.jpg", -257, "omnivore", "Fantasy Realms", 17, "unisex", "sharpening claws", "gargoyles"),
   ];
 
   addAnimal(newAnimal: Animal) {
