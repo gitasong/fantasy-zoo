@@ -16,7 +16,7 @@ import { Animal } from './animal.model';
   </div>
 
   <div class="list-loop">
-    <div *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
+    <div class="loop-item" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
       <h3><strong>Name: </strong> {{currentAnimal.name}}</h3>
       <h4><strong>Species: </strong> <em>{{currentAnimal.species}}</em></h4>
       <p><strong>Age: </strong> {{currentAnimal.age}}</p>
