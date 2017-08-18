@@ -14,7 +14,7 @@ import { Animal } from './animal.model';
   </select>
 
   <ul>
-    <li *ngFor="let currentAnimal of childAnimalList">
+    <li *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
       <h3><strong>Name: </strong> {{currentAnimal.name}}</h3>
       <h4><strong>Species: </strong> <em>{{currentAnimal.species}}</em></h4>
       <p><strong>Age: </strong> {{currentAnimal.age}}</p>
