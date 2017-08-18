@@ -6,12 +6,14 @@ import { Animal } from './animal.model';
   template: `
   <h2>Animals Currently In Zoo</h2>
 
-  <label>Filter By Age: </label>
-  <select (change)="onChange($event.target.value)">
-    <option value="all" selected="selected">All Animals</option>
-    <option value="young">Young Animals (under 2 years)</option>
-    <option value="mature">Mature Animals (2 years and older)</option>
-  </select>
+  <div class="filter-menu">
+    <label>Filter By Age: </label>
+    <select (change)="onChange($event.target.value)">
+      <option value="all" selected="selected">All Animals</option>
+      <option value="young">Young Animals (under 2 years)</option>
+      <option value="mature">Mature Animals (2 years and older)</option>
+    </select>
+  </div>
 
   <div class="list-loop">
     <div *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
