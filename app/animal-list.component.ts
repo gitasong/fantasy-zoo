@@ -7,7 +7,7 @@ import { Animal } from './animal.model';
   <h2>Animals Currently In Zoo</h2>
 
   <label>Filter By Age: </label>
-  <select>
+  <select (change)="onChange($event.target.value)">
     <option value="all" selected="selected">All Animals</option>
     <option value="young">Young Animals (under 2 years)</option>
     <option value="mature">Mature Animals (2 years and older)</option>
