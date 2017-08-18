@@ -24,5 +24,9 @@ import { Animal } from './animal.model';
 
 export class AnimalListComponent {
   @Input() childAnimalList: Animal[];
+  @Output() clickSender = new EventEmitter();
 
+  editClick(animalToEdit: Animal) {
+    this.clickSender.emit(animalToEdit);
+  }
 }
