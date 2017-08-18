@@ -6,6 +6,7 @@ import { Animal } from './animal.model';
   template: `
   <h1>Fantasy Zoo</h1>
   <animal-list [childAnimalList]="masterAnimalList"><animal-list>
+  <new-animal></new-animal>
   `
 })
 
