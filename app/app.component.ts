@@ -19,4 +19,8 @@ export class AppComponent {
   new Animal("gorilla", "Kokko", 7, "herbivore", "Primate House", 5, "male", "bananas", "gnats"),
   new Animal("unicorn", "Luna", 217, "lightarian", "Fantasy Realms", 12, "female", "moonlight", "impure maidens")
   ];
+
+  addAnimal(newAnimal: Animal) {
+    this.masterAnimalList.push(newAnimal);
+  }
 }
