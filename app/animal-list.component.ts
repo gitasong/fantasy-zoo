@@ -13,8 +13,8 @@ import { Animal } from './animal.model';
     <option value="mature">Mature Animals (2 years and older)</option>
   </select>
 
-  <ul>
-    <li *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
+  <div class="list-loop">
+    <div *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
       <h3><strong>Name: </strong> {{currentAnimal.name}}</h3>
       <h4><strong>Species: </strong> <em>{{currentAnimal.species}}</em></h4>
       <p><strong>Age: </strong> {{currentAnimal.age}}</p>
@@ -25,8 +25,8 @@ import { Animal } from './animal.model';
       <p><strong>Likes: </strong> {{currentAnimal.likes}}</p>
       <p><strong>Dislikes: </strong> {{currentAnimal.dislikes}}</p>
       <button (click)="editClick(currentAnimal)">Edit!</button>
-    </li>
-  </ul>
+    </div>
+  </div>
   `
 })
 
