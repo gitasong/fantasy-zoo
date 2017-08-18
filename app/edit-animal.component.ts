@@ -5,7 +5,7 @@ import { Animal } from './animal.model';
   selector: 'edit-animal',
   template: `
   <div>
-      <div>
+      <div *ngIf="selectedAnimal">
         <h3>{{selectedAnimal.name}}</h3>
         <hr>
         <h3>Edit Animal</h3>
@@ -34,5 +34,5 @@ import { Animal } from './animal.model';
 })
 
 export class EditAnimalComponent {
-
+  @Input() selectedAnimal: Animal;
 }
