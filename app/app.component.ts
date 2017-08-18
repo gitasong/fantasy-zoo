@@ -6,7 +6,7 @@ import { Animal } from './animal.model';
   template: `
   <h1>Fantasy Zoo</h1>
   <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
-  <edit-animal [selectedAnimal]="selectedAnimal"></edit-animal>
+  <edit-animal [selectedAnimal]="selectedAnimal" (doneClickSender)="finishedEditing()"></edit-animal>
   <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
   `
 })
