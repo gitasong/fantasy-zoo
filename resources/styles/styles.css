@@ -75,6 +75,10 @@ strong {
   font-weight: 500;
 }
 
+button {
+  padding: 6px 10px 6px 10px;
+}
+
 .btn-warning {
   background-color: rgba(239, 167, 167, 1);
   border: rgba(239, 167, 167, 1);
