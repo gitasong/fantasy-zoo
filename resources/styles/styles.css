@@ -6,6 +6,10 @@ body {
   padding: 0 0 0 0;
 }
 
+.main {
+  padding: 4rem 6rem 6rem 2.5rem;
+}
+
 .filter-menu {
   margin-bottom: 4rem;
 }
