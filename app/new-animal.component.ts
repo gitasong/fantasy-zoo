@@ -5,7 +5,7 @@ import { Animal } from './animal.model';
   selector: 'new-animal',
   template: `
   <h2>Log New Animal</h2>
-  <div>
+  <div class="new-animal-form">
     <div class="form-group">
       <label>Name: </label>
       <input #newName>
