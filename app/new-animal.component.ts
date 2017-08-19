@@ -31,7 +31,7 @@ import { Animal } from './animal.model';
       <input #newLocation>
     </div>
     <div class="form-group">
-      <label>Number of Caretakers: </label>
+      <label>\# Caretakers: </label>
       <input #newCaretakers>
     </div>
     <div class="form-group">
