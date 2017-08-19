@@ -88,6 +88,10 @@ h1 .f, h1 .z {
   padding: 0 0 0 0;
 }
 
+header.jumbotron {
+  background-color: rgba(201, 188, 133, 0.4);
+}
+
 .main {
   padding: 4rem 6rem 6rem 2.5rem;
 }
