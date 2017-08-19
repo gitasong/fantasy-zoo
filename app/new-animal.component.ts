@@ -6,26 +6,46 @@ import { Animal } from './animal.model';
   template: `
   <h2>Log New Animal</h2>
   <div>
-    <label>Name: </label>
-    <input #newName>
-    <label>Species: </label>
-    <input #newSpecies>
-    <label>Age: </label>
-    <input #newImage>
-    <label>Image: </label>
-    <input #newAge>
-    <label>Diet: </label>
-    <input #newDiet>
-    <label>Location: </label>
-    <input #newLocation>
-    <label>Number of Caretakers: </label>
-    <input #newCaretakers>
-    <label>Sex: </label>
-    <input #newSex>
-    <label>Likes: </label>
-    <input #newLikes>
-    <label>Dislikes: </label>
-    <input #newDislikes>
+    <div class="form-group">
+      <label>Name: </label>
+      <input #newName>
+    </div>
+    <div class="form-group">
+      <label>Species: </label>
+      <input #newSpecies>
+    </div>
+    <div class="form-group">
+      <label>Age: </label>
+      <input #newImage>
+    </div>
+    <div class="form-group">
+      <label>Image: </label>
+      <input #newAge>
+    </div>
+    <div class="form-group">
+      <label>Diet: </label>
+      <input #newDiet>
+    </div>
+    <div class="form-group">
+      <label>Location: </label>
+      <input #newLocation>
+    </div>
+    <div class="form-group">
+      <label>Number of Caretakers: </label>
+      <input #newCaretakers>
+    </div>
+    <div class="form-group">
+      <label>Sex: </label>
+      <input #newSex>
+    </div>
+    <div class="form-group">
+      <label>Likes: </label>
+      <input #newLikes>
+    </div>
+    <div class="form-group">
+      <label>Dislikes: </label>
+      <input #newDislikes>
+    </div>
     <button (click)="submitForm(newName.value, newSpecies.value, newImage.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newName.value=''; newSpecies.value=''; newImage.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add Animal</button>
   </div>
   `
