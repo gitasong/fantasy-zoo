@@ -28,7 +28,7 @@ import { Animal } from './animal.model';
           <p><strong>Sex: </strong> {{currentAnimal.sex}}</p>
           <p><strong>Likes: </strong> {{currentAnimal.likes}}</p>
           <p><strong>Dislikes: </strong> {{currentAnimal.dislikes}}</p>
-          <button (click)="editClick(currentAnimal)">Edit!</button>
+          <button class="btn-warning" (click)="editClick(currentAnimal)">Edit!</button>
         </div>
         <img src="{{currentAnimal.image}}" class="img-responsive loop-image" alt="{{currentAnimal.name}}, {{currentAnimal.species}}"/>
       </div>

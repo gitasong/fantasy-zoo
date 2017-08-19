@@ -50,7 +50,7 @@ import { Animal } from './animal.model';
             <input [(ngModel)]="selectedAnimal.dislikes">
           </div>
         </div>
-        <button (click)="doneClick()">Done Editing</button>
+        <button class="btn-warning" (click)="doneClick()">Done Editing</button>
       </div>
     </div>
   `
