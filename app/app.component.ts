@@ -6,7 +6,7 @@ import { Animal } from './animal.model';
   template: `
   <div class="container-fluid">
     <header class="jumbotron">
-      <h1><span>F</span><span>a</span><span>n</span><span>t</span><span>a</span><span>s</span><span>y</span> <span>Z</span><span>o</span><span>o</span></h1>
+      <h1><span class="">F</span><span class="">a</span><span class="">n</span><span class="">t</span><span class="">a</span><span class="">s</span><span class="">y</span> <span class="">Z</span><span class="">o</span><span class="">o</span></h1>
       <h4>A haven for magical and non-magical beasts</h4>
     </header>
     <div class="container main">
