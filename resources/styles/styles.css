@@ -14,7 +14,25 @@ $beige: rgba(201, 188, 133, 1);
 $mauve: rgba(239, 167, 167, 1);
 $gold: rgba(255, 217, 114, 1);*/
 
+.blue {
+  color: rgba(199, 234, 228, 1);
+}
 
+.green {
+  color: rgba(167, 232, 189, 1);
+}
+
+.beige {
+  color: rgba(201, 188, 133, 1);
+}
+
+.mauve {
+  color: rgba(239, 167, 167, 1);
+}
+
+.gold {
+  color: rgba(255, 217, 114, 1);
+}
 
 body {
 	font-size: 1.7rem;
@@ -22,10 +40,10 @@ body {
 	line-height: 1.2;
 }
 
-h1 {
+h1 span {
 	font-family: Luckiest Guy;
 	line-height: 1.000;
-	font-size: 2.500em;
+	font-size: 8rem;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -54,6 +72,10 @@ p {
 
 strong {
   font-weight: 500;
+}
+
+h1 .f, h1 .z {
+  font-size: 10rem;
 }
 
 .img-responsive {
