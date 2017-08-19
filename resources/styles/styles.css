@@ -92,6 +92,10 @@ h1 .f, h1 .z {
   padding: 4rem 6rem 6rem 2.5rem;
 }
 
+/*.animal-list h2 {
+  color: rgba(239, 167, 167, 1);
+}*/
+
 .filter-menu {
   margin-bottom: 4rem;
 }
@@ -115,7 +119,7 @@ h1 .f, h1 .z {
   overflow-y: scroll;
   left: 65%;
   height: 100%;
-  background-color: rgba(201, 188, 133, 0.7);
+  background-color: rgba(255, 217, 114, 0.7);;
   padding: 2rem;
   line-height: 1.2rem;
   z-index: 999;
@@ -137,6 +141,7 @@ h1 .f, h1 .z {
 }
 
 .main h2, .new-animal h2, .edit-animal h2 {
+  color: rgba(201, 188, 133, 1);
   margin-bottom: 2rem;
 }
 
