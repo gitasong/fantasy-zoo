@@ -32,3 +32,15 @@ body {
 .loop-details > h3 {
   margin-top: 0;
 }
+
+.new-animal-form, .edit-animal-form {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 5%;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-column-gap: 5%;
+}
