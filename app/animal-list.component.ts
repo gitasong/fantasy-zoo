@@ -17,10 +17,10 @@ import { Animal } from './animal.model';
 
   <div class="list-loop">
     <div class="loop-item" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
-      <span class="loop-image">
+      <div class="loop-image">
         <img src="{{currentAnimal.image}}" class="img-responsive loop-image" alt="{{currentAnimal.name}}, {{currentAnimal.species}}"/>
-      </span>
-      <span class="loop-details">
+      </div>
+      <div class="loop-details">
         <h3><strong>Name: </strong> {{currentAnimal.name}}</h3>
         <h4><strong>Species: </strong> <em>{{currentAnimal.species}}</em></h4>
         <p><strong>Age: </strong> {{currentAnimal.age}}</p>
@@ -31,7 +31,7 @@ import { Animal } from './animal.model';
         <p><strong>Likes: </strong> {{currentAnimal.likes}}</p>
         <p><strong>Dislikes: </strong> {{currentAnimal.dislikes}}</p>
         <button (click)="editClick(currentAnimal)">Edit!</button>
-      </span>
+      </div>
     </div>
   </div>
   `

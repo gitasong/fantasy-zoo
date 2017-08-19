@@ -59,16 +59,24 @@ strong {
 .loop-item {
   /*margin: 4rem auto 4rem auto;*/
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 100% 35%;
   grid-column-gap: 5%;
 }
 
 .loop-image {
   align-self: stretch;
+  position: relative;
+  overflow: hidden;
 }
 
 .loop-details {
+  position: absolute;
+  /*justify-self: end;*/
+  align-self: end;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
   line-height: 1.2rem;
+  z-index: 999;
 }
 
 .loop-details > h3 {
