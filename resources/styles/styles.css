@@ -1,14 +1,5 @@
-/* Coolors Exported Palette - coolors.co/c7eae4-a7e8bd-c9bc85-efa7a7-ffd972 */
-
-/* HSL */
-/*$blue: hsla(170%, 45%, 85%, 1);
-$green: hsla(140%, 59%, 78%, 1);
-$beige: hsla(49%, 39%, 65%, 1);
-$mauve: hsla(0%, 69%, 80%, 1);
-$gold: hsla(44%, 100%, 72%, 1);*/
-
 /* RGB */
-/*$blue: rgba(199, 234, 228, 1);
+/*$blue: rgba(161, 234, 222, 1);
 $green: rgba(167, 232, 189, 1);
 $beige: rgba(201, 188, 133, 1);
 $mauve: rgba(239, 167, 167, 1);
@@ -68,7 +59,6 @@ p {
 	font-weight: 300;
 	font-style: normal;
   line-height: 1.5rem;
-  /*padding: 0.2 0 0.2 0;*/
 }
 
 strong {
@@ -87,16 +77,6 @@ button {
 .btn-warning:hover {
   background-color: rgba(255, 217, 114, 1);
   border: rgba(255, 217, 114, 1);
-}
-
-.btn-success {
-  background-color: rgba(161, 234, 222, 1);
-  border: rgba(161, 234, 222, 1);
-}
-
-.btn-success:hover {
-  background-color: rgba(167, 232, 189, 1);
-  border: rgba(167, 232, 189, 1);
 }
 
 h1 .f, h1 .z {
@@ -125,10 +105,6 @@ header h2 {
 .main {
   padding: 4rem 6rem 6rem 2.5rem;
 }
-
-/*.animal-list h2 {
-  color: rgba(239, 167, 167, 1);
-}*/
 
 .filter-menu {
   margin-bottom: 4rem;
