@@ -7,46 +7,46 @@ import { Animal } from './animal.model';
   <div>
       <div *ngIf="selectedAnimal">
         <hr>
-        <h3>Edit Animal: {{selectedAnimal.name}}</h3>
+        <h2>Edit Animal: {{selectedAnimal.name}}</h2>
         <div class="edit-animal-form">
           <div class="form-group">
-            <label>Enter New Name:</label>
+            <label>New Name:</label>
             <input [(ngModel)]="selectedAnimal.name">
           </div>
           <div class="form-group">
-            <label>Enter New Species:</label>
+            <label>New Species:</label>
             <input [(ngModel)]="selectedAnimal.species">
           </div>
           <div class="form-group">
-            <label>Enter New Image:</label>
+            <label>New Image:</label>
             <input [(ngModel)]="selectedAnimal.image">
           </div>
           <div class="form-group">
-            <label>Enter New Age:</label>
+            <label>New Age:</label>
             <input [(ngModel)]="selectedAnimal.age">
           </div>
           <div class="form-group">
-            <label>Enter New Diet:</label>
+            <label>New Diet:</label>
             <input [(ngModel)]="selectedAnimal.diet">
           </div>
           <div class="form-group">
-            <label>Enter New Location:</label>
+            <label>New Location:</label>
             <input [(ngModel)]="selectedAnimal.location">
           </div>
           <div class="form-group">
-            <label>Enter New Caretakers:</label>
+            <label>New Caretakers:</label>
             <input [(ngModel)]="selectedAnimal.caretakers">
           </div>
           <div class="form-group">
-            <label>Enter New Sex:</label>
+            <label>New Sex:</label>
             <input [(ngModel)]="selectedAnimal.sex">
           </div>
           <div class="form-group">
-            <label>Enter New Likes:</label>
+            <label>New Likes:</label>
             <input [(ngModel)]="selectedAnimal.likes">
           </div>
           <div class="form-group">
-            <label>Enter New Dislikes:</label>
+            <label>New Dislikes:</label>
             <input [(ngModel)]="selectedAnimal.dislikes">
           </div>
         </div>
