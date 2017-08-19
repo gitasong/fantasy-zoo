@@ -12,6 +12,8 @@ import { Animal } from './animal.model';
         <input [(ngModel)]="selectedAnimal.name">
         <label>Enter New Species:</label>
         <input [(ngModel)]="selectedAnimal.species">
+        <label>Enter New Image:</label>
+        <input [(ngModel)]="selectedAnimal.image">
         <label>Enter New Age:</label>
         <input [(ngModel)]="selectedAnimal.age">
         <label>Enter New Diet:</label>
