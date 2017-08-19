@@ -37,6 +37,14 @@ body {
   margin-top: 0;
 }
 
+.new-animal {
+  margin-top: 4rem;
+}
+
+.main h2, .new-animal h2, .edit-animal h3 {
+  margin-bottom: 2rem;
+}
+
 .new-animal-form, .edit-animal-form {
   display: grid;
   grid-template-columns: 40% 40%;
@@ -45,6 +53,6 @@ body {
 
 .form-group {
   display: grid;
-  grid-template-columns: 20% 75%;
+  grid-template-columns: 25% 75%;
   grid-column-gap: 5%;
 }
