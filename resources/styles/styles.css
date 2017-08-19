@@ -92,6 +92,11 @@ header.jumbotron {
   background-color: rgba(201, 188, 133, 0.4);
 }
 
+header h2 {
+  font-size: 4rem;
+  color: rgba(201, 188, 133, 1);
+}
+
 .main {
   padding: 4rem 6rem 6rem 2.5rem;
 }
@@ -145,6 +150,7 @@ header.jumbotron {
 }
 
 .main h2, .new-animal h2, .edit-animal h2 {
+  font-size: 4rem;
   color: rgba(201, 188, 133, 1);
   margin-bottom: 2rem;
 }
